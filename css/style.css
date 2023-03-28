@@ -1,0 +1,49 @@
+/* common css stert here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --bg:#ffff;
+    --text-color:#000;
+}
+:root.dark{
+    --bg:#000;
+    --text-color:#fff;
+}
+body{
+    background: var(--bg);
+}
+/* common css end here */
+#mode_changer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* password section stert here */
+#password_sec{
+    width: 500px;
+    height: 150px;
+    background-color: #b4b1b1;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 30px;
+    margin-left: 25%;
+}
+
+#password_sec input{
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+}
+#password_sec button{
+    padding: 5px 20px;
+    border-radius:10px ;
+    margin-left: 5px;
+}
+/* password section end here */
